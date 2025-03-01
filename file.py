@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Редактор Spyder
+# Добавляем новые строки кода
 
-Это временный скриптовый файл.
-"""
-print("Hello")
+lst = [i for i in range(10)]
+print(lst)
