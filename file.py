@@ -13,3 +13,8 @@ def factorial(n):
         for i in range(1, n + 1):
             result *= i
         return result
+
+
+def is_palindrome(s):
+    s = s.lower().replace(" ", "")  # Приводим к нижнему регистру и убираем пробелы
+    return s == s[::-1]  # Сравниваем строку с её обратной версией
